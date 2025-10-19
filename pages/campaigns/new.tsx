@@ -252,10 +252,10 @@ export default function CampaignWizard() {
                 value={formData.message}
                 onChange={handleInputChange}
                 className="input-field"
-                placeholder="Enter your message template. Use {{name}} for personalization."
+                placeholder="Enter your message template. Use {name} for personalization."
               />
               <p className="mt-2 text-sm text-gray-500">
-                Use variables like {{name}}, {{username}}, {{platform}} for personalization
+                Use variables like {`{{name}}`}, {`{{username}}`}, {`{{platform}}`} for personalization
               </p>
             </div>
 
